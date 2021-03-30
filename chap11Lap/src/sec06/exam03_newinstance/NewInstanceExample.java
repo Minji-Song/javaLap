@@ -16,7 +16,7 @@ public class NewInstanceExample {
 			e.printStackTrace();
 		} catch (IllegalAccessException e) {
 			e.printStackTrace();
-		}
+		} 
 		
 	}
 
