@@ -11,5 +11,5 @@ public class FindAndReplaceExample {
 			str = str.replace("ÀÚ¹Ù", "JAVA");
 			System.out.println("-->" + str);
 		}
-	}
+	}  
 }
