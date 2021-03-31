@@ -10,6 +10,12 @@ public class SearchExample {
 		Arrays.sort(scores);
 		int index = Arrays.binarySearch(scores, 99);
 		System.out.println("Ã£´Â ÀÎµ¦½º : " + index);
+		
+		//¹®ÀÚ¿­ °Ë»ö
+		String[] names = {"È«±æµ¿", "¹Úµ¿¼ö", "±è¹Î¼ö"};
+		Arrays.sort(names);
+		index = Arrays.binarySearch(names, "È«±æµ¿");
+		System.out.println("Ã£´Â ÀÎµ¦½º : " + index);
 	}
 
 }
