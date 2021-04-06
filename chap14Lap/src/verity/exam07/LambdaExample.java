@@ -19,7 +19,7 @@ public class LambdaExample {
 	
 	public static void main(String[] args) {
 		double englishAvg = avg( Student::getEnglishScore );
-		System.out.println("영어 평균 점수: " + englishAvg);
+		System.out.println("영어 평균 점수: " + englishAvg); 
 		
 		double mathAvg = avg( Student::getMathScore );
 		System.out.println("수학 평균 점수: " + mathAvg);
