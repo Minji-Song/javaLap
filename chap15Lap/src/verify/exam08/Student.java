@@ -11,14 +11,16 @@ public class Student {
 	
 	@Override
 	public int hashCode() {
+		// #1 작성 위치
 		return studentNum;
 	}
 	
 	@Override
 	public boolean equals(Object obj) {
+		// #2 작성 위치
 		if(!(obj instanceof Student)) return false;
-		Student student = (Student) obj;
+		Student student = (Student)obj;
 		if(studentNum != student.studentNum) return false;
-		return true;
+		else return true;
 	}
 }
